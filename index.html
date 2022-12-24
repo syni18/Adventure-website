@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navebar  -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li class="col"><a href="#"></a>Tours</li>
+            <li class="col"><a href="#"></a>Explore</li>
+            <li class="col"><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img class="menu-btn contrast" src="./images/menu-btn.png" alt="">
+    </nav>
     <header>
         <div class="header-content">
             <h2>Explore The Colourful World</h2>
@@ -18,5 +30,13 @@
             <a href="#" class="ctn">Learn More...</a>
         </div>
     </header>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=> {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
