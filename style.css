@@ -40,6 +40,7 @@ ul {
 
 .nav-links li {
     margin: 0 30px;
+    cursor: pointer;
     /* font-size: 20px; */
 }
 
@@ -89,6 +90,9 @@ header {
     background: #fc036b;
     border-radius: 30px;
     color:whitesmoke ;
+}
+.ctn2{
+    border-radius: 0px !important;
 }
 
 .menu-btn {
@@ -147,6 +151,87 @@ p {
 .event .ctn {
     margin-top: 30px;
 }
+
+/* explore section  */
+.explore {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-image: url('./images/explore-world.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.explore-content{
+    width: 50%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+}
+
+.explore-content .line {
+    margin-bottom: 30px;
+}
+
+.explore-content p {
+    color: rgb(231, 230, 230);
+    font-family:cursive;
+}
+
+.explore-content .ctn {
+    margin-top: 40px;
+}
+
+.content-col {
+    width: 40%;
+}
+
+.image-col {
+    width: 60%;
+}
+
+.tours .row .col {
+    width: 50%;
+}
+.tours .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.image-gallery img {
+    max-width: 250px;
+    margin: 7px;
+}
+
+.content-col h1 {
+    font-size: 7vmin;
+    color: #14013f;
+}
+
+.content-col .line {
+    margin-left: -1px;
+}
+
+.content-col p {
+    padding: 0;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.content-col .ctn {
+    margin-left: -100px;
+}
+
 /* mobile device compatible */
 @media only screen and (max-width:850px){
     .menu-btn {
